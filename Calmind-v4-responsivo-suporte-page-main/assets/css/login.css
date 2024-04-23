@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: museo;
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(6, 6, 90), #2f3faa, hwb(232 47% 14%));
+  width: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 170px;
+  margin-left: 500px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px #464646;
+  width: 350px;
+  height: 350px;
+  gap: 30px;
+  font-family: museo;
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.title h1 {
+  position: relative;
+}
+
+.title h1::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  background-color: blue;
+  height: 3px;
+  bottom: 5px;
+  border-radius: 5px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.input-field {
+  cursor: text;
+  border-bottom: 1px solid blue;
+}
+
+.input-field input {
+  border: none;
+  background: transparent;
+  padding: 0px 5px;
+  font-size: 14px;
+}
+
+.input-field input:focus {
+  outline: none;
+}
+
+.button button {
+  border: none;
+  background-color: blue;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
